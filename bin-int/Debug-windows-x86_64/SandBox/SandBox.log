@@ -1,0 +1,3 @@
+﻿  Sort.cpp
+C:\Dev\Hazel\SandBox\src\Sort.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SandBox.vcxproj -> C:\Dev\Hazel\SandBox\..\bin\Debug-windows-x86_64\SandBox\SandBox.exe

@@ -1,0 +1,2 @@
+C:\Dev\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.pdb
+C:\Dev\Hazel\bin-int\Debug-windows-x86_64\Hazel\Hazel.pdb

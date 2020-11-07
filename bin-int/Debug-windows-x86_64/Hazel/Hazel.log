@@ -1,0 +1,6 @@
+﻿  Renderer.cpp
+  Renderer2D.cpp
+  Texture.cpp
+  OpenGLTexture.cpp
+  Generating Code...
+  Hazel.vcxproj -> C:\Dev\Hazel\Hazel\..\bin\Debug-windows-x86_64\Hazel\Hazel.lib
