@@ -1,6 +1,9 @@
 #Directories
+.git/
 .vs/
 bin/
-bin-intermediates/
+bin-int/
 #Files
 *.user
+*.filters
+*.vcxproj
