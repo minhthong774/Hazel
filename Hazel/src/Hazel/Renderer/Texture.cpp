@@ -1,5 +1,5 @@
 #include "hzpch.h"
-#include "Texture.h"
+#include "Hazel/Renderer/Texture.h"
 
 #include "Hazel/Renderer/Renderer.h"
 #include "Platform/OpenGL/OpenGLTexture.h"

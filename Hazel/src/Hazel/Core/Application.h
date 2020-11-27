@@ -1,8 +1,8 @@
 #pragma once
 
-#include "core.h"
+#include "Hazel/Core/Core.h"
 
-#include "Window.h"
+#include "Hazel/Core/Window.h"
 #include "Hazel/Core/LayerStack.h"
 #include "Hazel/Events/Event.h"
 #include "Hazel/Events/ApplicationEvent.h"
@@ -12,10 +12,10 @@
 #include "Hazel/ImGui/ImGuiLayer.h"
 
 namespace Hazel {
-	class HAZEL_API Application
+	class Application
 	{
 	public:
-		Application();
+		Application(const std::string& name = "Hazel App");
 		virtual ~Application();
 
 		void Run();
@@ -26,6 +26,8 @@ namespace Hazel {
 		void PushOverlay(Layer* layer);
 
 		inline Window& GetWindow() { return *m_Window; }
+
+		void Close();
 
 		inline static Application& Get() { return *s_Instance; }
 
